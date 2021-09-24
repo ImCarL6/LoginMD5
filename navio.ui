@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+<class>MainWindow</class>
+<widget class="QMainWindow" name="MainWindow">
+<property name="enabled">
+<bool>true</bool>
+</property>
+<property name="geometry">
+<rect>
+<x>0</x>
+<y>0</y>
+<width>800</width>
+<height>600</height>
+</rect>
+</property>
+<property name="windowTitle">
+<string>Navio</string>
+</property>
+<property name="styleSheet">
+<string notr="true">background-color: rgb(85, 170, 255)</string>
+</property>
+<widget class="QWidget" name="centralwidget">
+<widget class="QLabel" name="label">
+<property name="geometry">
+<rect>
+<x>280</x>
+<y>20</y>
+<width>251</width>
+<height>71</height>
+</rect>
+</property>
+<property name="font">
+<font>
+<pointsize>28</pointsize>
+</font>
+</property>
+<property name="layoutDirection">
+<enum>Qt::LeftToRight</enum>
+</property>
+<property name="text">
+<string>Navio Unip</string>
+</property>
+<property name="alignment">
+<set>Qt::AlignCenter</set>
+</property>
+</widget>
+<widget class="QLabel" name="label_2">
+<property name="geometry">
+<rect>
+<x>225</x>
+<y>130</y>
+<width>351</width>
+<height>31</height>
+</rect>
+</property>
+<property name="font">
+<font>
+<pointsize>12</pointsize>
+</font>
+</property>
+<property name="text">
+<string>Seja Bem Vindo!</string>
+</property>
+<property name="alignment">
+<set>Qt::AlignCenter</set>
+</property>
+</widget>
+<widget class="QLabel" name="label_3">
+<property name="geometry">
+<rect>
+<x>225</x>
+<y>170</y>
+<width>71</width>
+<height>31</height>
+</rect>
+</property>
+<property name="font">
+<font>
+<pointsize>12</pointsize>
+</font>
+</property>
+<property name="text">
+<string>Tipo:</string>
+</property>
+</widget>
+<widget class="QLabel" name="label_4">
+<property name="geometry">
+<rect>
+<x>225</x>
+<y>220</y>
+<width>71</width>
+<height>31</height>
+</rect>
+</property>
+<property name="font">
+<font>
+<pointsize>12</pointsize>
+</font>
+</property>
+<property name="text">
+<string>Situação:</string>
+</property>
+</widget>
+<widget class="QLabel" name="label_5">
+<property name="geometry">
+<rect>
+<x>225</x>
+<y>270</y>
+<width>71</width>
+<height>31</height>
+</rect>
+</property>
+<property name="font">
+<font>
+<pointsize>12</pointsize>
+</font>
+</property>
+<property name="text">
+<string>Motivo:</string>
+</property>
+</widget>
+<widget class="QLabel" name="label_6">
+<property name="geometry">
+<rect>
+<x>330</x>
+<y>170</y>
+<width>251</width>
+<height>31</height>
+</rect>
+</property>
+<property name="font">
+<font>
+<pointsize>12</pointsize>
+</font>
+</property>
+<property name="text">
+<string>Cargueiro</string>
+</property>
+</widget>
+<widget class="QLabel" name="label_7">
+<property name="geometry">
+<rect>
+<x>330</x>
+<y>220</y>
+<width>251</width>
+<height>31</height>
+</rect>
+</property>
+<property name="font">
+<font>
+<pointsize>12</pointsize>
+</font>
+</property>
+<property name="text">
+<string>Apreendido pela Guarda Costeira</string>
+</property>
+</widget>
+<widget class="QLabel" name="label_8">
+<property name="geometry">
+<rect>
+<x>330</x>
+<y>270</y>
+<width>251</width>
+<height>31</height>
+</rect>
+</property>
+<property name="font">
+<font>
+<pointsize>12</pointsize>
+</font>
+</property>
+<property name="text">
+<string>Transporte de toxinas pelo oceano</string>
+</property>
+</widget>
+<widget class="QLabel" name="label_9">
+<property name="geometry">
+<rect>
+<x>225</x>
+<y>320</y>
+<width>71</width>
+<height>31</height>
+</rect>
+</property>
+<property name="font">
+<font>
+<pointsize>12</pointsize>
+</font>
+</property>
+<property name="text">
+<string>Toxinas:</string>
+</property>
+</widget>
+<widget class="QLabel" name="label_10">
+<property name="geometry">
+<rect>
+<x>330</x>
+<y>320</y>
+<width>141</width>
+<height>31</height>
+</rect>
+</property>
+<property name="font">
+<font>
+<pointsize>12</pointsize>
+</font>
+</property>
+<property name="text">
+<string>Dióxido de Enxofre</string>
+</property>
+</widget>
+<widget class="QLabel" name="label_11">
+<property name="geometry">
+<rect>
+<x>480</x>
+<y>350</y>
+<width>101</width>
+<height>31</height>
+</rect>
+</property>
+<property name="font">
+<font>
+<pointsize>12</pointsize>
+</font>
+</property>
+<property name="text">
+<string>25 g/cm³</string>
+</property>
+</widget>
+<widget class="QLabel" name="label_12">
+<property name="geometry">
+<rect>
+<x>330</x>
+<y>350</y>
+<width>141</width>
+<height>31</height>
+</rect>
+</property>
+<property name="font">
+<font>
+<pointsize>12</pointsize>
+</font>
+</property>
+<property name="layoutDirection">
+<enum>Qt::LeftToRight</enum>
+</property>
+<property name="text">
+<string>Níquel</string>
+</property>
+<property name="alignment">
+<set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+</property>
+</widget>
+<widget class="QLabel" name="label_13">
+<property name="geometry">
+<rect>
+<x>480</x>
+<y>320</y>
+<width>101</width>
+<height>31</height>
+</rect>
+</property>
+<property name="font">
+<font>
+<pointsize>12</pointsize>
+</font>
+</property>
+<property name="text">
+<string>300 μg/m3</string>
+</property>
+</widget>
+<widget class="QLabel" name="label_14">
+<property name="geometry">
+<rect>
+<x>330</x>
+<y>380</y>
+<width>141</width>
+<height>31</height>
+</rect>
+</property>
+<property name="font">
+<font>
+<pointsize>12</pointsize>
+</font>
+</property>
+<property name="text">
+<string>Mercúrio</string>
+</property>
+</widget>
+<widget class="QLabel" name="label_15">
+<property name="geometry">
+<rect>
+<x>480</x>
+<y>380</y>
+<width>101</width>
+<height>31</height>
+</rect>
+</property>
+<property name="font">
+<font>
+<pointsize>12</pointsize>
+</font>
+</property>
+<property name="text">
+<string>1,2 mmHg</string>
+</property>
+</widget>
+<widget class="QLabel" name="label_16">
+<property name="geometry">
+<rect>
+<x>330</x>
+<y>410</y>
+<width>141</width>
+<height>31</height>
+</rect>
+</property>
+<property name="font">
+<font>
+<pointsize>12</pointsize>
+</font>
+</property>
+<property name="text">
+<string>Urânio</string>
+</property>
+</widget>
+<widget class="QLabel" name="label_17">
+<property name="geometry">
+<rect>
+<x>480</x>
+<y>410</y>
+<width>101</width>
+<height>31</height>
+</rect>
+</property>
+<property name="font">
+<font>
+<pointsize>12</pointsize>
+</font>
+</property>
+<property name="text">
+<string>127 g/cm3</string>
+</property>
+</widget>
+<widget class="QPushButton" name="pushButton_2">
+<property name="geometry">
+<rect>
+<x>290</x>
+<y>470</y>
+<width>231</width>
+<height>41</height>
+</rect>
+</property>
+<property name="font">
+<font>
+<pointsize>12</pointsize>
+</font>
+</property>
+<property name="styleSheet">
+<string notr="true">background-color: rgb(161, 161, 161)</string>
+</property>
+<property name="text">
+<string>Sair</string>
+</property>
+</widget>
+</widget>
+<widget class="QMenuBar" name="menubar">
+<property name="geometry">
+<rect>
+<x>0</x>
+<y>0</y>
+<width>800</width>
+<height>21</height>
+</rect>
+</property>
+</widget>
+<widget class="QStatusBar" name="statusbar"/>
+</widget>
+<resources/>
+<connections/>
+</ui>
