@@ -1,0 +1,27 @@
+CREATE DATABASE aps
+
+CREATE TABLE `tripulantes` (
+`codigo` int(11) NOT NULL,
+`usuario` varchar(255) NOT NULL,
+`senha` varchar(255) NOT NULL,
+`nome` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `tripulantes` (`codigo`, `usuario`, `senha`, `nome`) VALUES
+(1, 'jonas123', '827ccb0eea8a706c4c34a16891f84e7b', 'Jonas'),
+(2, 'matheus', 'e56b6eea9b0bc782bbb9ea6098ead641', 'Matheus Dias'),
+(4, 'guilherme', '43f5e9544bf9c8d1028ca5b417f8b4c5', 'Guilherme Coelho'),
+(5, 'lucas', '1308dfed71297a652cc42a390e211489', 'Lucas Pomar'),
+(6, 'gustavo', '7beb04f055ae4ec109e74162520c11b1', 'Gustavo fernandes'),
+(7, 'Eric', '4131f403beab0f4fa9e654b2ffa4f769', 'Eric Kenzo'),
+(8, 'carlos', '9ad48828b0955513f7cf0f7f6510c8f8', 'Carlos Lima'),
+(9, 'eduardo', 'ace86531e9fa1888968532a32242c055', 'Eduardo Borges');
+
+
+ALTER TABLE `tripulantes`
+ADD PRIMARY KEY (`codigo`);
+
+
+ALTER TABLE `tripulantes`
+MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+COMMIT;
