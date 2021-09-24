@@ -5,7 +5,7 @@ import hashlib
 banco = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="15975369",
+    passwd="",
     database="aps"
 )
 
